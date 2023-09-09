@@ -23,8 +23,7 @@ class XYZ  extends ABC
 }
 
 public class OverridingVsOverloading {
-
-	public static void main(String[] args) {
+   public static void main(String[] args) {
    XYZ xyz=new XYZ();
    xyz.m1(100);
    xyz.m2(10);
